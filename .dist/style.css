@@ -1,0 +1,222 @@
+body{
+    font-size: 18px;
+    max-width: 1440px;
+    margin: auto;
+    
+}
+.H {
+    background-image: url(/images/bg-header-desktop.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.txt {
+    text-align: center;
+}
+
+.bouton{
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    height: 60px;
+    width: 300px;
+    border-radius: 100px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.bouton:hover {
+  border-bottom: 3px solid hsl(201, 11%, 66%);
+  box-shadow: 10px 5px 5px hsl(201, 11%, 66%);
+}
+.bouton1{
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    height: 60px;
+    width: 300px;
+    border-radius: 100px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-left: -2px;
+}
+.bouton1:hover {
+    border-bottom: 3px solid hsl(201, 11%, 66%);
+    box-shadow: 10px 5px 5px hsl(201, 11%, 66%);
+  }
+  i:hover{
+    color:hsl(171, 66%, 44%) ;
+  }
+  .computer{
+    margin-left: -10rem;
+  }
+
+.A {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.F {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.I{
+    margin-left: 7%;
+}
+
+.AC {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.Sw {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.Icon {
+    display: flex;
+    text-align: center;
+    margin-top: 10%;
+   
+    
+}
+
+.I2 {
+    margin: auto;
+} 
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+
+.I3 {
+    margin: auto;
+}
+
+.CM {
+    text-align: center;
+    margin-top: 15%;
+
+}
+
+p{
+    color: hsl(201, 11%, 66%);
+}
+
+.C {
+    width: 60px;
+    justify-content: left;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.foot {
+    background-color: whitesmoke; 
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 10%;
+}
+
+.lien a {
+    display: flex;
+    justify-content: space-between;
+    color:hsl(201, 11%, 66%);
+    text-decoration: none;
+
+}
+
+.lien1 a {
+    color: hsl(201, 11%, 66%);
+    text-decoration: none;
+}
+
+a:hover {
+    color:hsl(171, 66%, 44%);
+}
+.logo {
+    display: flex;
+}
+
+ul > li > a {
+    display: flex;
+    justify-content: space-between;
+    color:hsl(201, 11%, 66%);
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo > div {
+    margin: 15px;
+  }
+  #hhh {
+    display: flex;
+    overflow: hidden;
+  }
+
+  @media screen and (max-width: 950px) {
+    #hhh {
+        flex-direction: column;
+        text-align: center;
+    }
+    .computer {
+        margin: 0;
+    }
+    .computer img {
+        width: 80% ;
+    }
+    .devices img {
+        width: 80%;
+    }
+    .Icon {
+        flex-direction: column;
+    }
+    .Logo {
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .Logo img {
+        margin: 20px;
+        width: 40%;
+    }
+    .btn .bouton{
+        display: block;
+     margin: auto;
+    }
+
+    .foot {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .list {
+        align-items: center;
+        text-align: center;
+    }
+   .container {
+    margin-left: -100px;
+   }
+   .foot li {
+    margin: 1rem;
+   }
+  }
+
+
+
